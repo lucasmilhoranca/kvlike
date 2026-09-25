@@ -1,0 +1,9 @@
+services:
+  redis-like:
+    build: .
+    ports:
+      - "6379:6379"
+    volumes:
+      - ./data.aof:/app/data.aof
+    command: ["./server", "--aof"]
+    restart: unless-stopped

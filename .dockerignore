@@ -1,0 +1,9 @@
+bin/
+*.aof
+*.test
+.git/
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
