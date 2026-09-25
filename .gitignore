@@ -1,0 +1,45 @@
+# Binaries
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+bin/
+dist/
+/server
+/client
+
+# Test binary, built with `go test -c`
+*.test
+
+# Output of the go coverage tool
+*.out
+coverage.*
+
+# AOF persistence files
+*.aof
+
+# Go workspace file
+go.work
+go.work.sum
+
+# Environment
+.env
+.env.*
+
+# AI assistant files
+CLAUDE.md
+.claude/
+AGENTS.md
+.agents/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
